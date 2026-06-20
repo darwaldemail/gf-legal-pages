@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "getfit-legal-pages",
+    "site": "food-app-backend-c724a",
     "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "headers": [
