@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Get Fit App — Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the Get Fit App and its admin backend." />
+  <style>
+    :root{--fg:#0f172a;--muted:#475569;--bg:#ffffff;--accent:#2563eb;--border:#e2e8f0}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--fg);background:var(--bg);line-height:1.55}
+    header,main,footer{max-width:860px;margin:auto;padding:24px}
+    header{padding-top:32px}
+    h1{font-size:2rem;margin:0 0 8px}
+    h2{font-size:1.25rem;margin:24px 0 8px}
+    p,li{color:var(--fg)}
+    .muted{color:var(--muted)}
+    .card{border:1px solid var(--border);border-radius:12px;padding:20px;background:#fff}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    code{background:#f8fafc;border:1px solid var(--border);padding:0 .25rem;border-radius:6px}
+    .small{font-size:.925rem}
+    .hr{height:1px;background:var(--border);margin:24px 0}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="muted small">Effective date: <time datetime="2025-09-24">September 24, 2025</time></p>
+    <p class="muted small">This policy explains how the Get Fit App (“we”, “us”) handles information for the customer-facing app and the admin backend.</p>
+  </header>
+
+  <main class="card">
+    <h2>Who we are</h2>
+    <p>Get Fit App provides meal ideas and nutrition info. The admin backend is used by maintainers to manage restaurant items, images, and tips.</p>
+
+    <h2>What we collect</h2>
+    <ul>
+      <li><strong>Admin authentication data.</strong> If you sign in to the backend, we receive your Google account email and basic profile (via Firebase Authentication) to verify you as an admin.</li>
+      <li><strong>Content you add.</strong> Restaurant names/ids, meal titles, instructions, nutrition values, and images you upload (stored in Firebase Storage).</li>
+      <li><strong>Support messages.</strong> If you contact us, we receive the info you include in your message.</li>
+      <li><strong>Service logs.</strong> Our hosting and Firebase services may log IP address, device/browser metadata, and error details for security and debugging.</li>
+    </ul>
+
+    <h2>How we use information</h2>
+    <ul>
+      <li>To provide and improve the app and backend.</li>
+      <li>To authenticate admins and prevent abuse.</li>
+      <li>To store and serve meal images and menu data to users.</li>
+      <li>To respond to support requests.</li>
+    </ul>
+
+    <h2>Legal bases (EEA/UK)</h2>
+    <ul>
+      <li><strong>Legitimate Interests</strong> — operating and securing our services.</li>
+      <li><strong>Contract</strong> — providing requested features to you.</li>
+      <li><strong>Consent</strong> — where required (e.g., optional analytics, if enabled).</li>
+    </ul>
+
+    <h2>Service providers</h2>
+    <p>We use Google Firebase to host and operate core features:</p>
+    <ul>
+      <li><strong>Firebase Authentication</strong> (Google sign-in for admins)</li>
+      <li><strong>Cloud Firestore</strong> (menu data)</li>
+      <li><strong>Firebase Storage</strong> (meal images)</li>
+      <li><strong>Firebase Hosting</strong> (web delivery)</li>
+    </ul>
+    <p>Providers process data on our behalf according to their terms and applicable law.</p>
+
+    <h2>Data retention</h2>
+    <ul>
+      <li>Admin auth records are kept while the account remains authorized.</li>
+      <li>Menu data and images persist until deleted by an admin.</li>
+      <li>Support emails are retained for up to 24 months unless removal is requested sooner.</li>
+    </ul>
+
+    <h2>Data location & transfers</h2>
+    <p>Data may be stored in Firebase regions selected by our project and may be processed in other locations where Google operates. Appropriate safeguards are applied where required.</p>
+
+    <h2>Your rights</h2>
+    <p>Depending on your location, you may have the right to access, correct, delete, or receive a copy of your personal data, and to object or restrict certain processing.</p>
+    <p>To make a request, contact us at <a href="mailto:infogetfitapp@gmail.com">infogetfitapp@gmail.com</a>.</p>
+
+    <h2>Children</h2>
+    <p>The service is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
+
+    <h2>Security</h2>
+    <p>We use technical and organizational measures appropriate to the risk (e.g., authenticated writes for admin data, rules for image uploads). No method is 100% secure.</p>
+
+    <h2>Do Not Sell</h2>
+    <p>We do not sell personal information. If local law requires additional disclosures or opt-outs, contact us.</p>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:infogetfitapp@gmail.com">infogetfitapp@gmail.com</a></p>
+
+    <div class="hr"></div>
+    <p class="small muted">We may update this policy to reflect changes to our practices. We’ll update the “Effective date” above and, where required, notify you by appropriate means.</p>
+    <p class="small"><a href="./support.html">Support</a></p>
+  </main>
+
+  <footer class="small muted">
+    <p>© <span id="y"></span> Get Fit App</p>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
